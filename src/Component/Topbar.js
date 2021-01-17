@@ -29,7 +29,7 @@ const Topbar = ({count}) => {
 // export default Topbar;
 
 const mapStateToProps=(store)=>({
-    count:store?.cartProduct?.length,
+    count:0,
     cartProduct:store?.cartProduct
 })
 export default connect(mapStateToProps)(Topbar);
